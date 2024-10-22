@@ -16,11 +16,7 @@ app.debug = True
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 app.config['SECRET_KEY'] = os.getenv('secret_key')    # secret_key
 
-<<<<<<< HEAD
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('db_conn') 	# db_conn	
-=======
-app.config['SQLALCHEMY_DATABASE_URI'] = db_conn	
->>>>>>> c712bad (Made some changes to the password functionality.)
 app.config['ENV'] = 'development'
 
 with app.app_context():
