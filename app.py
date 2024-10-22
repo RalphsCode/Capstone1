@@ -12,7 +12,7 @@ from datetime import datetime
 app = Flask(__name__)  
 bcrypt.init_app(app)
 
-app.debug = True
+app.debug = False
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 app.config['SECRET_KEY'] = os.getenv('secret_key')    # secret_key
 
