@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Event Weather App
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<h1 class="text-primary text-center">Event Weather App</h1><br>
+
+<h2 class="text-white bg-primary p-3 text-center">Using years of weather history to predict the weather at your next event.</h2>
+
+{% if 'user' not in session %}
+    <form action="/register" method="POST" class="bg-secondary text-white p-3">
+        {{ userForm.hidden_tag() }}
+        {% for field in userForm 
+            if field.widget.input_type != 'hidden' %} 
+                <p>
+                    {{field.label}}
+                    {{field}}
+                </p>
+        {% endfor %} 
+
+        </form><br>
+
+        {% else %}
+        <h3 class="text-secondary">{{ session['user'].username }} is logged in. &nbsp; &nbsp; 
+        <a href="/logout" class="btn btn-warning" >Log Out</a> </h3>
+{% endif %}
+
+<p><b><i>Note: </b>Address can be as little as a Zip Code, a place, or a full address...<br>
+These are all valid Event Locations:</i><br>
+&nbsp;<i class="fa-solid fa-check text-success" style="font-size: 12px;"></i>&nbsp;
+90210<br>
+&nbsp;<i class="fa-solid fa-check text-success" style="font-size: 12px;"></i>&nbsp;
+Atlanta<br>
+&nbsp;<i class="fa-solid fa-check text-success" style="font-size: 12px;"></i>&nbsp;
+Lambeau Field<br>
+&nbsp;<i class="fa-solid fa-check text-success" style="font-size: 12px;"></i>&nbsp;
+Legoland California<br>
+&nbsp;<i class="fa-solid fa-check text-success" style="font-size: 12px;"></i>&nbsp;
+1600 Pennsylvania Ave., Washington, DC 20500</p>
+<form action="/" method="POST" class="bg-primary p-3">
+{{ addressForm.hidden_tag() }}
+{% for field in addressForm 
+    if field.widget.input_type != 'hidden' %} 
+        <p>
+            {{field.label}}
+            {{field}}
+        </p>
+{% endfor %} 
+<p><i>The more years searched, the more accurate the prediction, but also the longer it takes to display.<br>A 10 year search can take up to 30 seconds to load. </i></p>
+<button type="submit" class="btn btn-success" id="start_btn">GO</button>
+</form>
+
+<div id="spinner">
+    <i class="fa fa-spinner fa-spin"></i>
+</div>
+
+{% endblock %}

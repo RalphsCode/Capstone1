@@ -1,0 +1,104 @@
+2024-10-21 16:16:01,732 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 16:16:01,732 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 16:16:34,502 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-10-21 16:16:34,506 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:16:34,558 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "GET / HTTP/1.1" 200 -
+2024-10-21 16:16:34,607 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:34,607 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:16:34,610 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:34,612 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:34,614 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:34,616 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:34,625 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "GET /_debug_toolbar/static/css/toolbar.css?0.7333357552698991 HTTP/1.1" 200 -
+2024-10-21 16:16:34,640 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:34] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,699 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-21 16:16:36,705 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:16:36,730 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "GET / HTTP/1.1" 200 -
+2024-10-21 16:16:36,745 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,749 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,752 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,757 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,758 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,761 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:36,770 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "GET /_debug_toolbar/static/css/toolbar.css?0.7814179577275413 HTTP/1.1" 200 -
+2024-10-21 16:16:36,783 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:36] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,165 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-10-21 16:16:43,170 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:16:43,195 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "GET / HTTP/1.1" 200 -
+2024-10-21 16:16:43,219 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,223 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,225 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,229 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,231 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,232 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:43,238 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "GET /_debug_toolbar/static/css/toolbar.css?0.7344624845911181 HTTP/1.1" 200 -
+2024-10-21 16:16:43,252 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:43] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,832 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-21 16:16:45,839 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:16:45,864 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "GET / HTTP/1.1" 200 -
+2024-10-21 16:16:45,877 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,883 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,887 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,888 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,888 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,891 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:16:45,899 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "GET /_debug_toolbar/static/css/toolbar.css?0.03820575781587787 HTTP/1.1" 200 -
+2024-10-21 16:16:45,913 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:16:45] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,439 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:47:23,468 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "GET / HTTP/1.1" 200 -
+2024-10-21 16:47:23,480 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,489 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,489 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,491 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,491 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,496 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:23,507 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "GET /_debug_toolbar/static/css/toolbar.css?0.38131572494566224 HTTP/1.1" 200 -
+2024-10-21 16:47:23,522 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:23] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:47:39,511 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:47:39,517 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-10-21 16:47:39,856 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:39] "[35m[1mGET /confirm?address=45605&date=2024-10-30&search_years=3 HTTP/1.1[0m" 500 -
+2024-10-21 16:47:55,390 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:47:55,424 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "GET / HTTP/1.1" 200 -
+2024-10-21 16:47:55,698 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:55,704 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:47:55,705 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:55,712 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:55,713 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:55,714 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:47:55,725 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "GET /_debug_toolbar/static/css/toolbar.css?0.41011349825999455 HTTP/1.1" 200 -
+2024-10-21 16:47:55,741 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:47:55] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:48:05,378 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:48:05,380 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-10-21 16:48:06,304 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "GET /confirm?address=63132&date=2024-10-16&search_years=3 HTTP/1.1" 200 -
+2024-10-21 16:48:06,324 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:06,328 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:48:06,330 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:06,335 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:06,335 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:06,338 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:06,343 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "GET /_debug_toolbar/static/css/toolbar.css?0.7332897699211249 HTTP/1.1" 200 -
+2024-10-21 16:48:06,358 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:06] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:48:11,990 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:11] "[35m[1mPOST /get_data HTTP/1.1[0m" 500 -
+2024-10-21 16:48:21,544 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:21] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2024-10-21 16:48:21,544 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:21] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2024-10-21 16:48:36,958 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:36] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,675 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "POST /get_data HTTP/1.1" 200 -
+2024-10-21 16:48:41,693 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,700 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,701 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,706 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,707 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,709 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:48:41,717 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "GET /_debug_toolbar/static/css/toolbar.css?0.8247020056318617 HTTP/1.1" 200 -
+2024-10-21 16:48:41,731 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:48:41] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,376 - root - CRITICAL - ---------- Starting App ---------
+2024-10-21 16:49:01,402 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "GET / HTTP/1.1" 200 -
+2024-10-21 16:49:01,423 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,431 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /static/app.css HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,432 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,434 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,435 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,439 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2024-10-21 16:49:01,446 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "GET /_debug_toolbar/static/css/toolbar.css?0.20186821238770492 HTTP/1.1" 200 -
+2024-10-21 16:49:01,461 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 16:49:01] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -

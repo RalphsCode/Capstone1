@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Event Weather App
+{% endblock %}
+
+{% block content %}
+<h1 class="txt-primary"><a href="/"> Event Weather App</a></h1><br>
+
+<!-- Display the prediction -->
+<div class="container mt-4">
+    <h3 class="mb-3">Weather Prediction:</h3>
+    <table class="table table-bordered table-striped">
+        <tbody>
+            <tr>
+                <th scope="row">Prediction for:</th>
+                <td class="text-primary">{{ session.location_data.get('address') }}</td>
+            </tr>
+            <tr>
+                <th scope="row">On:</th>
+                <td class="text-primary">{{ session.event_date.strftime("%B %d") }}</td>
+            </tr>
+            <tr>
+                <th scope="row">Likely Temperature:</th>
+                <td class="text-primary">{{ prediction['temp_prediction'] }} degrees</td>
+            </tr>
+            <tr>
+                <th scope="row">Likelyhood of precipitation:</th>
+                <td class="text-primary">{{ prediction['prcp_prediction'] }}%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<a href="/" class="btn btn-warning">Restart</a>
+
+<!-- Display the data so far -->
+
+<div class="container mt-5">
+    <h2 class="mb-4">Weather History</h2>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Temperature</th>
+                <th scope="col">Rain/precipitation</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for date, metrics in daily_summary_dict.items() %}
+            <tr>
+                <td> {{ date }} </td>
+                <td class="text-center"> {{ metrics.get('TAVG') }} </td>
+                <td class="text-center"> {% if metrics.get('PRCP') == True %} Yes {% else %} No {% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<a href="/" class="btn btn-warning">Restart</a>
+
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Event Weather App
+{% endblock %}
+
+{% block content %}
+<h1>Event Weather App</h1><br>
+<h3 class="text-secondary">Searching for: <span class="text-primary">{{ event_date.strftime("%B, %d") }}</span></h3>
+<h3 class="text-secondary">Number of years to search:  <span class="text-primary">{{ session.get('search_years') }}</span></h3>
+<h3 class="text-secondary">Searching location:  <span class="text-primary">{{ address }}</span></h3>
+
+<form action="/get_data" method="post" id="confirm_form">
+    <a href="/" class="btn btn-warning">Edit</a>
+    <button class="btn btn-success" id="get_wx">Get Weather</button>
+
+</form>
+<p>After you click it will take some time as we gather & process thousands of data points to make the prediction, stand by, shouldn't be more than 25 seconds...</p>
+
+<div id="get_wx_spinner">
+    <i class="fa fa-spinner fa-spin"></i>
+</div>
+
+{% endblock %}
