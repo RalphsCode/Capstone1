@@ -2,11 +2,7 @@
 from flask import session, flash, make_response
 import requests
 import statistics
-<<<<<<< HEAD
 # from process.my_secrets import Google_API_KEY, NOAA_token
-=======
-from process.my_secrets import Google_API_KEY, NOAA_token
->>>>>>> c712bad (Made some changes to the password functionality.)
 from models import db, connect_db, Search_History, User
 from datetime import datetime
 import os
